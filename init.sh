@@ -68,9 +68,7 @@ echo "✓ Initialization complete!"
 echo "============================================================"
 echo ""
 echo "Activating virtual environment..."
-source sonoPleth/bin/activate
-echo ""
-echo "✓ Virtual environment activated!"
+source activate.sh
 echo ""
 echo "You can now run:"
 echo "  python utils/getExamples.py          # Download example files"

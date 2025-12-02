@@ -13,8 +13,10 @@ Run this **once** to set up everything:
 ```bash
 git clone https://github.com/lucianpar/sonoPleth.git
 cd sonoPleth
-./init.sh
+source init.sh
 ```
+
+**Important:** Use `source init.sh` (not `./init.sh`) to ensure the virtual environment activates in your current shell.
 
 The `init.sh` script will:
 
@@ -25,7 +27,7 @@ The `init.sh` script will:
 - Build the VBAP renderer
 - Activate the virtual environment automatically
 
-After `init.sh` completes, you'll see `(sonoPleth)` in your terminal prompt and you're ready to go!
+After `source init.sh` completes, you'll see `(sonoPleth)` in your terminal prompt
 
 ### Get Example Files
 
@@ -97,7 +99,7 @@ If you encounter dependency errors:
 
 ```bash
 rm .init_complete
-./init.sh
+source init.sh
 ```
 
 ## Manual Setup
