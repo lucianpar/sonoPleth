@@ -144,7 +144,18 @@ Example ADM files: https://zenodo.org/records/15268471
 
 ## Requirements
 
-- macOS (for Homebrew installation of bwfmetaedit)
-- Python 3.8+
-- CMake and build tools
-- Homebrew (for bwfmetaedit)
+### Essential
+
+- **Python 3.8+** - Core runtime for the Python components
+- **CMake and build tools** - Required to build the VBAP spatial audio renderer
+
+### Platform-specific installation methods
+
+- **macOS**: Homebrew for easy `bwfmetaedit` installation (`brew install bwfmetaedit`)
+- **Windows/Linux**: Manual installation of `bwfmetaedit` from [MediaArea website](https://mediaarea.net/BWFMetaEdit)
+
+### Required external tool
+
+- **bwfmetaedit** - Extracts ADM metadata from WAV files. Install via:
+  - macOS: `brew install bwfmetaedit`
+  - Other platforms: Download from https://mediaarea.net/BWFMetaEdit

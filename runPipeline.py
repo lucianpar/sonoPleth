@@ -129,7 +129,7 @@ if __name__ == "__main__":
         print("Usage: python runPipeline.py <sourceADMFile> [sourceSpeakerLayout] [createAnalysis]")
         print("\nRunning with default configuration...")
         
-        sourceADMFile = "sourceData/POE-ATMOS-FINAL.wav"
+        sourceADMFile = "sourceData/driveExampleSpruce.wav"
         sourceSpeakerLayout = "vbapRender/allosphere_layout.json"
         createRenderAnalysis = True
         
