@@ -38,7 +38,7 @@ This downloads example Atmos ADM files for testing.
 ### Run the Pipeline
 
 ```bash
-python runPipeline.py sourceData/driveExample1.wav
+python runPipeline.py sourceData/driveExampleSpruce.wav
 ```
 
 **Command options:**
