@@ -61,6 +61,7 @@ def splitChannelsToMono(source_path, processed_dir="processedData", output_dir="
     
     # Convert to absolute path to avoid issues when running from different directories
     outputPath = Path(os.path.abspath("processedData/stageForRender"))
+    # SHOULD UPDATE THIS IN THE FUTURE
     
     # Clear existing WAV files if directory exists
     if outputPath.exists():

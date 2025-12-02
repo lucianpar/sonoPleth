@@ -17,7 +17,7 @@
 
 - only clone parts of submodules / libs that we are actually using?
 
--make notebook
+- fix hardcoded paths of procesed dir in parser.py and packageForRender, will have to update notebook and runPipeline potentially
 
 # Less Immediate
 
